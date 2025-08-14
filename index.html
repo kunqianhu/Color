@@ -224,7 +224,7 @@
             width: 100%;
             height: 150px;
             border-radius: 15px;
-            background: #ff6b6b;
+            background: #8a7bc5; /* Muted initial color */
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
             display: flex;
             justify-content: center;
@@ -537,11 +537,11 @@
                 <div class="color-blocks">
                     <!-- Color Item 1 -->
                     <div class="color-item">
-                        <div class="color-block" style="background-color: #FF6B6B;" id="color1">
-                            <span class="color-code" id="code1">#FF6B6B</span>
+                        <div class="color-block" style="background-color: #8a7bc5;" id="color1">
+                            <span class="color-code" id="code1">#8A7BC5</span>
                         </div>
                         <div class="color-info">
-                            <div class="color-code" id="code1-text">#FF6B6B</div>
+                            <div class="color-code" id="code1-text">#8A7BC5</div>
                             <button class="btn" onclick="openColorPicker(0)">
                                 <i class="fas fa-eye-dropper"></i> Pick Color
                             </button>
@@ -550,11 +550,11 @@
                     
                     <!-- Color Item 2 -->
                     <div class="color-item">
-                        <div class="color-block" style="background-color: #4ECDC4;" id="color2">
-                            <span class="color-code" id="code2">#4ECDC4</span>
+                        <div class="color-block" style="background-color: #7bc5a8;" id="color2">
+                            <span class="color-code" id="code2">#7BC5A8</span>
                         </div>
                         <div class="color-info">
-                            <div class="color-code" id="code2-text">#4ECDC4</div>
+                            <div class="color-code" id="code2-text">#7BC5A8</div>
                             <button class="btn" onclick="openColorPicker(1)">
                                 <i class="fas fa-eye-dropper"></i> Pick Color
                             </button>
@@ -563,11 +563,11 @@
                     
                     <!-- Color Item 3 -->
                     <div class="color-item">
-                        <div class="color-block" style="background-color: #FFD166;" id="color3">
-                            <span class="color-code" id="code3">#FFD166</span>
+                        <div class="color-block" style="background-color: #c5a87b;" id="color3">
+                            <span class="color-code" id="code3">#C5A87B</span>
                         </div>
                         <div class="color-info">
-                            <div class="color-code" id="code3-text">#FFD166</div>
+                            <div class="color-code" id="code3-text">#C5A87B</div>
                             <button class="btn" onclick="openColorPicker(2)">
                                 <i class="fas fa-eye-dropper"></i> Pick Color
                             </button>
@@ -576,11 +576,11 @@
                     
                     <!-- Color Item 4 -->
                     <div class="color-item">
-                        <div class="color-block" style="background-color: #6A5AF9;" id="color4">
-                            <span class="color-code" id="code4">#6A5AF9</span>
+                        <div class="color-block" style="background-color: #a87bc5;" id="color4">
+                            <span class="color-code" id="code4">#A87BC5</span>
                         </div>
                         <div class="color-info">
-                            <div class="color-code" id="code4-text">#6A5AF9</div>
+                            <div class="color-code" id="code4-text">#A87BC5</div>
                             <button class="btn" onclick="openColorPicker(3)">
                                 <i class="fas fa-eye-dropper"></i> Pick Color
                             </button>
@@ -589,11 +589,11 @@
                     
                     <!-- Color Item 5 -->
                     <div class="color-item">
-                        <div class="color-block" style="background-color: #CD84F5;" id="color5">
-                            <span class="color-code" id="code5">#CD84F5</span>
+                        <div class="color-block" style="background-color: #7b9ec5;" id="color5">
+                            <span class="color-code" id="code5">#7B9EC5</span>
                         </div>
                         <div class="color-info">
-                            <div class="color-code" id="code5-text">#CD84F5</div>
+                            <div class="color-code" id="code5-text">#7B9EC5</div>
                             <button class="btn" onclick="openColorPicker(4)">
                                 <i class="fas fa-eye-dropper"></i> Pick Color
                             </button>
@@ -620,11 +620,11 @@
                             </button>
                         </div>
                         <div class="palette-colors">
-                            <div class="palette-color" style="background-color: #FF6B6B;"></div>
-                            <div class="palette-color" style="background-color: #4ECDC4;"></div>
-                            <div class="palette-color" style="background-color: #FFD166;"></div>
-                            <div class="palette-color" style="background-color: #6A5AF9;"></div>
-                            <div class="palette-color" style="background-color: #CD84F5;"></div>
+                            <div class="palette-color" style="background-color: #8a7bc5;"></div>
+                            <div class="palette-color" style="background-color: #7bc5a8;"></div>
+                            <div class="palette-color" style="background-color: #c5a87b;"></div>
+                            <div class="palette-color" style="background-color: #a87bc5;"></div>
+                            <div class="palette-color" style="background-color: #7b9ec5;"></div>
                         </div>
                         <div class="palette-name">Example Palette</div>
                     </div>
@@ -651,7 +651,7 @@
             
             <div class="picker-body">
                 <div class="color-preview" id="colorPreview">
-                    <span id="currentColor">#FF6B6B</span>
+                    <span id="currentColor">#8A7BC5</span>
                 </div>
                 
                 <div class="color-sliders">
@@ -674,17 +674,17 @@
                 <div class="color-inputs">
                     <div class="input-group">
                         <label for="hexInput">HEX</label>
-                        <input type="text" id="hexInput" value="#FF6B6B">
+                        <input type="text" id="hexInput" value="#8A7BC5">
                     </div>
                     
                     <div class="input-group">
                         <label for="rgbInput">RGB</label>
-                        <input type="text" id="rgbInput" value="rgb(255, 107, 107)">
+                        <input type="text" id="rgbInput" value="rgb(138, 123, 197)">
                     </div>
                     
                     <div class="input-group">
                         <label for="hslInput">HSL</label>
-                        <input type="text" id="hslInput" value="hsl(0, 100%, 71%)">
+                        <input type="text" id="hslInput" value="hsl(251, 39%, 63%)">
                     </div>
                 </div>
             </div>
@@ -732,13 +732,16 @@
                 const hex = this.value;
                 if (/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/.test(hex)) {
                     updateColorFromHex(hex);
+                } else if (/^[A-Fa-f0-9]{6}$/.test(hex)) {
+                    // Allow input without # prefix
+                    updateColorFromHex('#' + hex);
                 }
             });
             
             // Add example saved palettes
             savedPalettes.push({
                 name: "Example Palette",
-                colors: ["#FF6B6B", "#4ECDC4", "#FFD166", "#6A5AF9", "#CD84F5"]
+                colors: ["#8A7BC5", "#7BC5A8", "#C5A87B", "#A87BC5", "#7B9EC5"]
             });
         }
         
@@ -803,17 +806,22 @@
             // Convert HEX to RGB
             let r = 0, g = 0, b = 0;
             
+            // Handle input with or without #
+            if (hex.charAt(0) === '#') {
+                hex = hex.substring(1);
+            }
+            
             // 3 digits
-            if (hex.length === 4) {
-                r = parseInt(hex[1] + hex[1], 16);
-                g = parseInt(hex[2] + hex[2], 16);
-                b = parseInt(hex[3] + hex[3], 16);
+            if (hex.length === 3) {
+                r = parseInt(hex[0] + hex[0], 16);
+                g = parseInt(hex[1] + hex[1], 16);
+                b = parseInt(hex[2] + hex[2], 16);
             } 
             // 6 digits
-            else if (hex.length === 7) {
-                r = parseInt(hex[1] + hex[2], 16);
-                g = parseInt(hex[3] + hex[4], 16);
-                b = parseInt(hex[5] + hex[6], 16);
+            else if (hex.length === 6) {
+                r = parseInt(hex[0] + hex[1], 16);
+                g = parseInt(hex[2] + hex[3], 16);
+                b = parseInt(hex[4] + hex[5], 16);
             }
             
             // Convert RGB to HSL
@@ -827,6 +835,9 @@
             document.getElementById('hueSlider').value = currentHue;
             document.getElementById('saturationSlider').value = currentSaturation;
             document.getElementById('lightnessSlider').value = currentLightness;
+            
+            // Update input fields to show # prefix
+            document.getElementById('hexInput').value = '#' + hex;
             
             updateColorPreview();
         }
